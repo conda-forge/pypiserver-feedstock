@@ -1,5 +1,5 @@
 {% set name = "pypiserver" %}
-{% set version = "1.4.2" %}
+{% set version = "1.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pypiserver-{{ version }}.zip
-  sha256: 0bf2bc338519c2f767f4d577d9a16c79ea3083a1372049d70c05d053101a5e10
+  sha256: fe2cbf08dfb8435767e9e8e2ea9aebf78f9382204c76d40f3bc79b45bb24f6eb
 
 build:
   entry_points:
