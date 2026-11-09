@@ -1,13 +1,13 @@
 {% set name = "pypiserver" %}
-{% set version = "2.3.2" %}
+{% set version = "2.4.3" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pypiserver-{{ version }}.tar.gz
-  sha256: d2b16b12a667a9f356f1b022e039d5ad2c33a76986bb2fdb3f18633dbb1afca3
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/pypiserver-{{ version }}.tar.gz
+  sha256: 302737e7182fde89c120c6c53ae9602a55c8bd1449d9c4f364d00ffe602d4535
 
 build:
   entry_points:
